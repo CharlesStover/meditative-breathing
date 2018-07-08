@@ -13,7 +13,7 @@
 }
 
 #breathe-inner {
-	background-color: @p200;
+	background-color: #f48fb1;
 	border-radius: 140px;
 	height: 100%;
 	margin: auto;
@@ -42,8 +42,8 @@
 	animation-duration: 10s;
 	animation-iteration-count: infinite;
 	animation-name: breathe-outer;
-	background-color: @p500;
-	border: 0.25em solid @p700;
+	background-color: #e91e63;
+	border: 0.25em solid #c2185b;
 	border-radius: 150px;
 	box-sizing: border-box;
 	font-family: "Roboto Condensed", sans-serif;
