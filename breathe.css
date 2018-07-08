@@ -1,0 +1,59 @@
+@keyframes inhale-exhale {
+	0%   { opacity: 1; }
+	33%  { opacity: 1; }
+	50%  { opacity: 0; }
+	100% { opacity: 0; }
+}
+
+@keyframes breathe-outer {
+	0%  { line-height: 280px; padding: 10px; }
+	40% { line-height: 100px; padding: 100px; }
+	50% { line-height: 100px; padding: 100px; }
+	90% { line-height: 280px; padding: 10px; }
+}
+
+#breathe-inner {
+	background-color: @p200;
+	border-radius: 140px;
+	height: 100%;
+	margin: auto;
+	position: relative;
+	text-align: center;
+	width: 100%;
+}
+
+	#breathe-inner > span {
+		animation-duration: 10s;
+		animation-iteration-count: infinite;
+		animation-name: inhale-exhale;
+		font-weight: bold;
+		font-size: 1.5em;
+		left: 0;
+		position: absolute;
+		width: 100%;
+	}
+
+		#breathe-inner > span:first-child {
+			animation-delay: 5s;
+			opacity: 0;
+		}
+
+#breathe-outer {
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	animation-name: breathe-outer;
+	background-color: @p500;
+	border: 0.25em solid @p700;
+	border-radius: 150px;
+	box-sizing: border-box;
+	font-family: "Roboto Condensed", sans-serif;
+	height: 300px;
+	line-height: 280px;
+	margin: 0 auto;
+	padding: 10px;
+	width: 300px;
+}
+
+main {
+	padding: 4em 0;
+}
