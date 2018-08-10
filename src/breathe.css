@@ -1,0 +1,76 @@
+@keyframes inhale-exhale {
+	0%   { opacity: 1; }
+	33%  { opacity: 1; }
+	50%  { opacity: 0; }
+	100% { opacity: 0; }
+}
+
+@keyframes breathe-outer {
+	0%  { padding: 0.4em; }
+	40% { padding: 0.75rem; }
+	50% { padding: 0.75rem; }
+	90% { padding: 0.4em; }
+}
+
+body {
+	align-items: center;
+	background-color: #202020;
+	color: #F0F0F0;
+	display: flex;
+	justify-content: center;
+	height: 100%;
+	margin: 0;
+}
+
+#breathe-inner {
+	background-color: #607D8B;
+	border-radius: 0.5em;
+	height: 100%;
+	margin: auto;
+	text-align: center;
+	user-select: none;
+	width: 100%;
+}
+
+#breathe-outer {
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	animation-name: breathe-outer;
+	background-color: #455A64;
+	border: 0.0125em solid #263238;
+	border-radius: 0.5em;
+	box-sizing: border-box;
+	color: #202020;
+	font-size: 50vw;
+	height: 1em;
+	line-height: 1em;
+	margin: 0 auto;
+	padding: 0.4em;
+	position: relative;
+	width: 1em;
+}
+
+	#breathe-outer > span {
+		animation-duration: 10s;
+		animation-iteration-count: infinite;
+		animation-name: inhale-exhale;
+		font-family: "Roboto Condensed", sans-serif;
+		font-size: 0.05em;
+		font-weight: bold;
+		height: 100%;
+		left: 0;
+		position: absolute;
+		text-align: center;
+		top: 0;
+		width: 100%;
+	}
+
+		#breathe-outer > span:last-child {
+			animation-delay: 5s;
+			opacity: 0;
+		}
+
+html {
+	font-size: 16px;
+	height: 100%;
+}
