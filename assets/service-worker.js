@@ -14,13 +14,13 @@ self.addEventListener('install', function(event) {
       .open('meditative-breathing')
       .then(function(cache) {
         return cache.addAll([
-          './',
-          'assets/192.png',
-          'assets/512.png',
-          'assets/all.css',
-          'assets/favicon.ico',
-          'assets/index.js',
-          'assets/manifest.json'
+          '../',
+          '192.png',
+          '512.png',
+          'all.css',
+          'favicon.ico',
+          'index.js',
+          'manifest.json'
         ]);
       })
   );
