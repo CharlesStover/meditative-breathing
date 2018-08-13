@@ -8,7 +8,7 @@ button.addEventListener('click', function() {
   if (deferredPrompt === null) {
     return false;
   }
-  button.style.setProperty('bottom', '-2em');
+  button.style.setProperty('bottom', '-2.5em');
   deferredPrompt.prompt();
 });
 
