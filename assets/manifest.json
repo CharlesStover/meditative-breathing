@@ -9,13 +9,13 @@
     },
     {
       "sizes": "192x192",
-      "src": "192.png",
-      "type": "image/png"
+      "src": "192.gif",
+      "type": "image/gif"
     },
     {
       "sizes": "512x512",
-      "src": "512.png",
-      "type": "image/png"
+      "src": "512.gif",
+      "type": "image/gif"
     }
   ],
   "name": "Meditative Breathing",
