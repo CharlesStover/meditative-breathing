@@ -21,6 +21,6 @@
   "name": "Meditative Breathing",
   "scope": "./",
   "short_name": "Meditative Breathing",
-  "start_url": "index.html",
+  "start_url": "./",
   "theme_color": "#263238"
 }
