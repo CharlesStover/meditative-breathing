@@ -19,7 +19,7 @@
     }
   ],
   "name": "Meditative Breathing",
-  "scope": "./",
+  "scope": "../",
   "short_name": "Meditative Breathing",
   "start_url": "./",
   "theme_color": "#263238"
