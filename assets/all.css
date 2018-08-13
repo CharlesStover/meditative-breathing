@@ -38,6 +38,7 @@ body {
 	justify-content: center;
 	height: 100%;
 	margin: 0;
+	overflow: hidden;
 }
 
 body > div {
@@ -99,6 +100,21 @@ body > div {
 		top: 0;
 		width: 19.5em;
 	}
+
+button {
+	background-color: #455A64;
+	border-color: #263238;
+	border-radius: 1em 1em 0 0;
+	border-style: solid;
+	border-width: 0.25em 0.75em 0 0.75em;
+	bottom: -2em;
+	line-height: 1.5em;
+	padding-top: 0.25em;
+	position: absolute;
+	transition-duration: 0.5s;
+	transition-property: bottom;
+	transition-timing-function: ease;
+}
 
 html {
 	font-size: 16px;

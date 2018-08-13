@@ -1,0 +1,26 @@
+{
+  "background_color": "#202020",
+  "display": "standalone",
+  "icons": [
+    {
+      "sizes": "16x16",
+      "src": "assets/favicon.ico",
+      "type": "image/x-icon"
+    },
+    {
+      "sizes": "192x192",
+      "src": "assets/192.png",
+      "type": "image/png"
+    },
+    {
+      "sizes": "512x512",
+      "src": "assets/512.png",
+      "type": "image/png"
+    }
+  ],
+  "name": "Meditative Breathing",
+  "scope": "./",
+  "short_name": "Meditative Breathing",
+  "start_url": "index.html",
+  "theme_color": "#263238"
+}
