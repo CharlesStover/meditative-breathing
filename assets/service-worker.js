@@ -15,9 +15,12 @@ self.addEventListener('install', function(event) {
       .then(function(cache) {
         return cache.addAll([
           'index.html',
+          'assets/192.png',
+          'assets/512.png',
           'assets/all.css',
           'assets/favicon.ico',
-          'assets/index.js'
+          'assets/index.js',
+          'assets/manifest.json'
         ]);
       })
   );
